@@ -3,7 +3,7 @@ let heroi = [
 ]
 
 let nomeHeroi = prompt("Digite o nome do seu herói:");
-let xpHeroi = parseInt(prompt("Digite o XP do herói:"));
+let xpHeroi = String(prompt("Digite o XP do herói:"));
 
 let nivelHeroi;
 
